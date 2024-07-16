@@ -1,0 +1,8 @@
+Die Funktion soll eine gültige Email-Adresse testen:
+
+function isValidEmail(email) {
+  const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return regex.test(email);
+}
+
+Schreibe einen Testrunner für Mocha ohne den Einsatz von Chai, der diese Funktion, die in einem Modul challenge.js ausgelagert ist, testet.
